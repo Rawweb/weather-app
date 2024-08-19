@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    background: url(images/background.jpg) center/cover no-repeat border-box;
+    background: url(images/background.jpg) center no-repeat;
 /* background: linear-gradient(90deg, rgba(140,113,69,1) 16%, rgba(154,162,99,1) 49%, rgba(0,212,255,1) 100%); */
 }
 
@@ -56,6 +56,18 @@ body {
 
 .search button img {
     width: 18px;
+}
+
+.error {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 30px;
+    text-shadow: 2px 2px 2px black;
+    display: none;
+}
+
+.weather {
+    display: none;
 }
 
 .weather-icon {
